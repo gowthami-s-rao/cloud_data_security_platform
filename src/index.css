@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .glass {
+    background: rgba(23, 27, 34, 0.7);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .glass-card {
+    background: rgba(23, 27, 34, 0.75);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .neon-border-blue {
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.2);
+    border: 1px solid rgba(59, 130, 246, 0.4);
+  }
+  .stat-bar {
+    height: 4px;
+    background: #1E293B;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .stat-fill-blue {
+    height: 100%;
+    background: #3B82F6;
+  }
+  .stat-fill-green {
+    height: 100%;
+    background: #10B981;
+  }
+  .stat-fill-red {
+    height: 100%;
+    background: #EF4444;
+  }
+  .active-nav {
+    background: rgba(59, 130, 246, 0.1);
+    border-left: 3px solid #3B82F6;
+  }
+}
+
+/* Scrollbar tweaks for dense UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0C10;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}

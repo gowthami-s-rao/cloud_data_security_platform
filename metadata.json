@@ -1,0 +1,6 @@
+{
+  "name": "Cloud Data Security Platform",
+  "description": "Enterprise-grade Cloud Data Security Platform featuring Multi-Cloud Policy Engine, Dynamic ABAC, JIT Key Management, Inline Encryption, and Security Telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

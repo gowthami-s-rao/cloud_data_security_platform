@@ -14,6 +14,8 @@ import { ReportsModule } from './components/ReportsModule';
 import { AuthModal } from './components/AuthModal';
 import { NotificationsModal } from './components/NotificationsModal';
 
+
+import matplotlib.pyplot as plt
 import { 
   User, 
   UserRole, 
